@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="head_top">
+                <ul class="header_top">
+                    <li><a href=index.html><img src="img/logo.png" alt="logo"></a></li>
+                    <li><a href=contacts.html><img src="img/contacts.png" alt="contacts-logo"></a></li>
+                </ul>
+                <div class="start_top">
+                    <h1 class="headline_top">VSC на Xubuntu</h1>
+                    <p class="parag_top">
+                        Сначала обновите индекс пакетов и установите зависимости, набрав:<br>
+                        --- sudo apt update
+                        --- sudo apt install software-properties-common apt-transport-https wget</p>
+                    <a class=button_top href="#">Просмотр проекта</a>
+                </div>
+            </div>
+            <div class="card_start_install">
+                <h3 class="h3_card">Установка:</h3>
+                <div class="card_install_head">
+                    <div class="card__install">
+                        <img class="card_svg" src="img/card_1.svg" alt="card 1">
+                        <h4 class="h4_card">Используйте следующие команды:</h4>
+                        <p class="parag_card">
+                            <span class="card">--- wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo
+                                apt-key add
+                                -</span>
+                        </p>
+                        <a class="witch_button" href="#">Просмотр</a>
+                    </div>
+                    <div class="card__install card__install--1">
+                        <img class="card_svg card__svg--abs" src="img/card_2.svg" alt="card 2">
+                        <h4 class="h4_card">Так же следующую команду:</h4>
+                        <p class="parag_card">
+                            --- <span class="card">sudo add-apt-repository "deb [arch=amd64]
+                                https://packages.microsoft.com/repos/vscode stable
+                                main"</span>
+                        </p>
+                        <a class="witch_button" href="#">Просмотр</a>
+                    </div>
+                    <div class="card__install">
+                        <img class="card_svg" src="img/card_3.svg" alt="card 3">
+                        <h4 class="h4_card">И следующую:</h4>
+                        <p class="parag_card">
+                            <span class="card">* --- sudo tee /etc/apt/sources.list.d/vscode.list
+                                * --- sudo apt update
+                                * - не обязательно</span>
+                        </p>
+                        <a class="witch_button" href="#">Просмотр</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_end_install">
+                <h3 class="h3_card">Для завершение установки введите команду:</h3>
+                <p class="par_card_end">После того как репозиторий включен, установите последнюю версию VSC с
+                    помощью:<br>
+                    --- sudo apt install code</p>
+            </div>
+            <div class="launch">
+                <h3 class="h3_launch">Запуск VSC</h3>
+                <p class="parag_launch_top">Вы можете запустить его из командной строки, набрав code.</p>
+                <div class="img_all__launch">
+                    <div class="img_launch">
+                        <img class="img_png__launch" src="img/up.png" alt="up photo">
+                        <p class="parag_launch">Smart home instalation</p>
+                    </div>
+                    <div class="img_parents__launch">
+                        <div class="img_parents__launch--version img_png__launch--margin">
+                            <img class="img_png__launch" src="img/down_1.png" alt="Down 1">
+                            <p class="parag_launch parag_launch--version">Sparklite App</p>
+                        </div>
+                        <div class="img_parents__launch--version">
+                            <img class="img_png__launch" src="img/down_2.png" alt="Down 2">
+                            <p class="parag_launch parag_launch--version">Car-Rapetition App</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_site">
+            <div class="footer_but_ps">
+                <div class="footer__ps">
+                    <h3 class="footer_head__ps">P&S</h3>
+                    <p class="footer_parag">Для вас старались мы.</p>
+                </div>
+                <div class="footer_button--version_lite"><a class="footer_button" href="#">Задать вопрос ?</a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer__cont">
+                <div>
+                    <ul class="footer__cont__li">
+                        <li class="cont__li">Добрыня</li>
+                        <li class="cont__li">8-922-234-51-11</li>
+                        <li class="cont__li">gkancom@example.com</li>
+                    </ul>
+                </div>
+                <div class="free_end">
+                    <p>Все права защищены</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
